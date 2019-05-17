@@ -30,7 +30,7 @@ CuboidMaker.prototype.surfaceArea = function (){
   return (`${this.length} ` * `${this.width}` + `${this.length}` * `${this.height}` + `${this.width}` * `${this.height}`) * 2;
 }
 
-////=================Stretch=================//
+////================================Stretch==============================================================////
 
 CuboidMaker.prototype.perimeter = function (){
   return (`${this.length * 4} ` + `${this.width *4}` + `${this.height *4}`);
